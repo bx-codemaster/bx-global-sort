@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "scopes": {
+        "shop-root": {
+            "hashes": {
+                "/admin/bx_global_sort.php": "f0463746b93c8ce3d6ffc8bba0690369",
+                "/admin/images/icons/heading/icon_bx_global_sort.png": "02a0ade24b874a779fd2efb3eecafed8",
+                "/admin/includes/extra/css/bx_global_sort.php": "e85995e5174633db8aefdfb2a008e99a",
+                "/admin/includes/extra/filenames/bx_global_sort.php": "daeb02fc9b2f2d5ddbac7341de6f7b23",
+                "/admin/includes/extra/javascript/bx_global_sort.php": "1adc0efc01f5dd03bf97fb0c5327ce7e",
+                "/admin/includes/extra/menu/bx_global_sort.php": "b39c295c15b31a4879e27b4a4eac5a77",
+                "/admin/includes/modules/system/bx_global_sort.php": "3c27121fa86e9c959babb716efdb7b38",
+                "/lang/english/extra/admin/bx_global_sort.php": "cd1a9bf9766c161e76b5bc23745eb7f6",
+                "/lang/english/modules/system/bx_global_sort.php": "6a0291c324a639bcde0056f7eb50f96a",
+                "/lang/german/extra/admin/bx_global_sort.php": "fcf720749dad61d160e9a7ac9f9ab9c1",
+                "/lang/german/modules/system/bx_global_sort.php": "daa3f73c2b34c957ff8f6122a3ed082e"
+            }
+        },
+        "shop-vendor-mmlc": {
+            "hashes": []
+        }
+    }
+}
