@@ -31,7 +31,7 @@
 
  defined('_VALID_XTC') or die('Direct Access to this location is not allowed.');
 
- if (defined('MODULE_BX_GLOBAL_SORT_STATUS') && MODULE_BX_GLOBAL_SORT_STATUS == 'true' && basename($_SERVER['PHP_SELF']) == 'bx_global_sort.php') {
+ if (defined('MODULE_BX_GLOBAL_SORT_STATUS') && MODULE_BX_GLOBAL_SORT_STATUS == 'True' && basename($_SERVER['PHP_SELF']) == 'bx_global_sort.php') {
 ?>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 <script>

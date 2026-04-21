@@ -31,7 +31,7 @@
 
 defined('_VALID_XTC') or die('Direct Access to this location is not allowed.');
 
-if (defined("MODULE_BX_GLOBAL_SORT_STATUS") && 'true' === MODULE_BX_GLOBAL_SORT_STATUS) {
+if (defined("MODULE_BX_GLOBAL_SORT_STATUS") && 'True' === MODULE_BX_GLOBAL_SORT_STATUS) {
   switch ($_SESSION['language_code']) {
     case 'de':
       if (!defined('MENU_NAME_BX_GS')) define('MENU_NAME_BX_GS', 'BX Global Sort');

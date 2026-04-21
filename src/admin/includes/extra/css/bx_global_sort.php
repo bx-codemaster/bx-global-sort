@@ -28,7 +28,7 @@
  */
 
   defined('_VALID_XTC') or die('Direct Access to this location is not allowed.');
-  if (defined('MODULE_BX_GLOBAL_SORT_STATUS') && MODULE_BX_GLOBAL_SORT_STATUS == 'true' && basename($_SERVER['PHP_SELF']) == 'bx_global_sort.php') {
+  if (defined('MODULE_BX_GLOBAL_SORT_STATUS') && MODULE_BX_GLOBAL_SORT_STATUS == 'True' && basename($_SERVER['PHP_SELF']) == 'bx_global_sort.php') {
 ?>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
