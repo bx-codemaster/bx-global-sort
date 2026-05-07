@@ -24,10 +24,21 @@
 
   define('MODULE_BX_GLOBAL_SORT_TITLE', 'BX Global Sort');
 
-  $description = '<h3 style="margin-top:0; display:flex; align-items:center; gap:8px;">' . xtc_image(DIR_WS_ICONS.'heading/bx_global_sort.png', 'BX Global Sort', '', '', 'style="max-height: 32px;"') . ' BX Global Sort</h3><p>ist ein professionelles Verwaltungstool für Modified eCommerce Shopsofware, das die Sortierung von Produkten auf der Startseite und in Kategorien vereinfacht. Mit einer modernen Drag & Drop Oberfläche können Sie Produkte intuitiv per Maus verschieben – die Sortierung wird automatisch gespeichert.</p>';
+  $description = '
+<details class="bxac-card">
+  <summary class="bxac-summary" style="list-style: none;">
+  <span class="bxac-arrow">▸</span>
+  <span class="bxac-title">' . xtc_image(DIR_WS_ICONS.'heading/bx_global_sort.png', 'BX Global Sort', '', '', 'style="max-height: 32px; vertical-align: middle; margin-right: 8px;"') . 'BX Global Sort</span>
+  </summary>
+  <div class="bxac-body">
+    <h3 style="margin-top: 0;">Professionelles Verwaltungstool</h3>
+    <p>Ein Tool für Modified eCommerce Shopsofware, das die Sortierung von Produkten auf der Startseite und in Kategorien vereinfacht. Mit einer modernen Drag & Drop Oberfläche können Sie Produkte intuitiv per Maus verschieben – die Sortierung wird automatisch gespeichert.</p>';
+
   if (basename($_SERVER['PHP_SELF']) == 'module_export.php') { 
     $description .= '<p><a class="button btnbox but_red" style="text-align:center;" onclick="return confirmLink(\'Alle Dateien löschen?\', \'\' ,this);" href="'.xtc_href_link(FILENAME_MODULE_EXPORT, 'set=system&module=bx_global_sort&action=custom').'">Alle Moduldateien löschen</a></p>';
   }
+  $description .= '</div></details>';
+
   define('MODULE_BX_GLOBAL_SORT_DESC', $description);
 
   define('MODULE_BX_GLOBAL_SORT_STATUS_TITLE', 'Modul aktiv?');
